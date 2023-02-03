@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{%block title%}Contact Us{%endblock title%}
+
+{% block body %}
+<div class="container">
+  <img src="https://source.unsplash.com/970x250/?phone,contact" class="contactBgImage w-100 my-4 img-center"
+    alt="contactBgImage1"><!--1200x400-->
+</div>
+<div class="container mb-3">
+  <h1 class="text-center">Contact Us</h1>
+  <form method="post" action="/contact">
+    {% csrf_token %}
+    <div class="form-group mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="name" class="form-control" id="name" name="name" placeholder="Your Name..">
+    </div>
+    <div class="form-group mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+    </div>
+    <div class="form-group mb-3">
+      <label for="number" class="form-label">Contact Number</label>
+      <input type="number" class="form-control" id="number" name="phone" placeholder="Your Contact Number">
+    </div>
+    <div class="form-group mb-3">
+      <label for="desc" class="form-label">Why do you want to contact me?</label>
+      <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+</div>
+{% endblock body%}
