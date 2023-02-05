@@ -4,36 +4,50 @@
 
 <h1 align = "center"> Django Tutorial In Hindi </h1>
 
-![Django Tutorial In Hindi](https://i.ytimg.com/vi/JxzZxdht-XY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHsMkYKbk3Oj88ZJDpGupOsHhypQ)
+[![Django Tutorial In Hindi](https://i.ytimg.com/vi/JxzZxdht-XY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHsMkYKbk3Oj88ZJDpGupOsHhypQ)](https://youtu.be/JxzZxdht-XY)
 
-</div>
+<h1> About This Project </h1>
 
-<h1 align = "center"> About This Project </h1>
-
-This project is build in [this](https://youtu.be/JxzZxdht-XY) YouTube video. This project is exact same as shown in [this](https://youtu.be/JxzZxdht-XY) video. All the code of that project is [here](https://github.com/SAD0XER/FirstPro).
+This project was build in [this](https://youtu.be/JxzZxdht-XY) YouTube video. All the code of that project is [here](https://github.com/SAD0XER/FirstPro).
 
 YouTube channel: [CodeWithHarry](https://www.youtube.com/@CodeWithHarry)
 
 Video Link: [Django Tutorial In Hindi](https://youtu.be/JxzZxdht-XY)
+<hr/>
+
+</div>
+
 
 # Steps to Run this Django Project
 
-1. Fork the repository.
-2. Clone forked repository on your local system.
-3. Open PowerShell on that repository and run following commands:
+#### 1. Fork the repository else you can download ZIP of this project from [here](https://github.com/SAD0XER/FirstPro/archive/refs/heads/main.zip).
+#### 2. Clone forked repository on your local system OR if you've ZIP file then extract that ZIP file.
+#### 3. Open PowerShell on that repository OR in that extracted project folder and run following commands:
 
-   > NOTE: Here I am considering that you have already installed python in your system.
-   
-   - pip install django
-   - upgrade django --upgrade
-   - python manage.py makemigrations
-   - python manage.py migrate
-   - python manage.py createsuperuser
-     - Enter username 
-     - Enter Password (In a terminal password is invisible while entering)
-     - Re-Enter the Password
-   - python manage.py runserver
+   > :warning: NOTE: Here I am considering that you have already installed python in your system. If you have not installed yet, please kindly download from official python website.
+[Download Python](https://www.python.org/downloads/)
 
-Now enter your Username and Password on login page.
+#### 4. Install Django
+```
+pip install django
+```
 
-#### You are done!:smile:
+#### 5. Create super user (Creating Account for LogIn)
+```
+python manage.py createsuperuser
+```
+
+1. Enter username<br/>
+2. Enter Password (Password will be invisible while entering in terminal)<br/>
+3. Re-Enter the Password
+ 
+ #### 6. Now run the project
+```
+python manage.py runserver
+```
+
+#### 7. Now copy the URL
+URL is something like `http://127.0.0.1:8888/` if you are in windows.
+#### 8. Open that URL in your browser
+#### 9. Now enter your Username and Password on login page.
+:smile:
