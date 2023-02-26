@@ -53,3 +53,5 @@ python manage.py runserver
 URL is something like `http://127.0.0.1:8888/` if you are in windows.
 #### 8. Open that URL in your browser.
 #### 9. Now enter your Username and Password on login page.
+---
+#### :warning:Note: Fork this project and build further more as you want.:warning:
